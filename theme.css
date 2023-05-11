@@ -1,0 +1,64 @@
+/**
+ * @name 02+
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fa8d61c9-af11-43b0-9264-151bf31dec5a/dcb82fe-7d33798c-790f-4877-867a-17c780992847.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhOGQ2MWM5LWFmMTEtNDNiMC05MjY0LTE1MWJmMzFkZWM1YVwvZGNiODJmZS03ZDMzNzk4Yy03OTBmLTQ4NzctODY3YS0xN2M3ODA5OTI4NDcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sXlC7P7a3Gl4YQEgmU8W_L-gEFSBbdOCJbRKtXzvGUM');
+  --backgroundsize: cover;
+  --backgroundposition: top center;
+  --backgroundblur: 0px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: top center;
+  --popoutblur: 0px;
+  --transparencycolor: 106,47,112;
+  --accentcolor: 61,34,58;
+  --backdrop: rgb(0,0,0,0.85);
+  --textshadow: rgb(0,0,0,0);
+  --transparencyalpha: 0;
+  --messagetransparency: 0.04;
+  --guildchanneltransparency: 0;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --font: Whitney;
+  --textbrightest: 156,39,176;
+  --textbrighter: 189,50,205;
+  --textbright: 187,81,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 38%;
+  --rs-online-color: #FB00FF;
+  --rs-idle-color: #1C1AFA;
+  --rs-dnd-color: #A90000;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
+
+
