@@ -1,0 +1,30 @@
+/**
+ * @name good lightmode
+ * @author Disease#5663
+ * @version 1.0.0
+ * @description Based on Outlook Web.
+ * @source https://github.com/maenDisease/Outlook
+ * @invite BShu37e4jg
+ * @website https://maendisease.github.io/
+ * @authorId 678469587444170762
+ * @BDEditor Outlook
+*/
+
+@import url('https://maendisease.github.io/Outlook/Outlook.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+
+:root {
+  --home-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/169/780/small/white-colored-background-free-vector.jpg');
+  --accent-hue: 249;
+  --accent-saturation: 84%;
+  --accent-brightness: 68%;
+  --gradient-toggle: 1;
+  --gradient-hue-shift: 3.6;
+  --gradient-saturation: 42%;
+  --gradient-deg: 297deg;
+  --customFont: Segoe UI;
+}
+
+/* Any custom CSS below here */
+
+
